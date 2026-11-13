@@ -1,0 +1,37 @@
+{
+  "selected_experiment": "experiment_1",
+  "learning_rate": 0.003,
+  "best_epoch": 100,
+  "neural_network": {
+    "validation": {
+      "mse": 28.48217903137207,
+      "mae": 3.6657269287109373
+    },
+    "test": {
+      "mse": 27.274842631022135,
+      "mae": 3.5092558670043945
+    }
+  },
+  "baselines": {
+    "training_mean": {
+      "validation": {
+        "mse": 222.3453283179009,
+        "mae": 10.153897222222186
+      },
+      "test": {
+        "mse": 199.8228074845679,
+        "mae": 9.64913935185185
+      }
+    },
+    "linear_regression": {
+      "validation": {
+        "mse": 189.09079028931876,
+        "mae": 9.31691899677406
+      },
+      "test": {
+        "mse": 167.37626971575207,
+        "mae": 8.57291942189251
+      }
+    }
+  }
+}
